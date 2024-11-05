@@ -21,7 +21,7 @@ const getHouse = (req, res) => {
     });
 };
 
-const getClients = (req, res) => {
+const getHouses = (req, res) => {
 
     // Get all clients
     let query = 'SELECT * FROM clients';
